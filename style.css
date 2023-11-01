@@ -5,6 +5,20 @@ html { box-sizing: border-box; }
 body {
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+h1,
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	font-size: 28px;
+}
+
+h2{
+	font-size:18px;
 }
 
 .paticka {
@@ -16,6 +30,8 @@ body {
 .paticka a {
 	color: silver;
 }
+
+
 
 /* -------------------------------------------------- */
 
@@ -33,3 +49,21 @@ Nastav je receptům jako obrázky na pozadí (tj. nepřidávej je jako <img> do 
 Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
 Flexboxy mohou být vnořené do sebe, klidně několikrát.
 */
+
+.recepty{
+	display: flex;
+	flex-direction: column;
+}
+
+.salaty{
+	display: flex;
+	flex-direction: column;
+	min-height: 200px;
+}
+
+.komentare{
+	display: flex;
+	flex-direction: row;
+	
+
+}
